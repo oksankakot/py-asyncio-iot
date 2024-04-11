@@ -55,8 +55,8 @@ async def main() -> None:
             ),
         )
 
-        await wake_up_program()
-        await sleep_program()
+    await wake_up_program()
+    await sleep_program()
 
 
 if __name__ == "__main__":
